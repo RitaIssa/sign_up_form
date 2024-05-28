@@ -1,4 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fredericka+the+Great&family=Instrument+Serif:ital@0;1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-size: 30px;
+    color: #C75D2F;
+}
+
+.background{
+    height: 100vh;
+    width: 35vw;
+    position: absolute;
+}
+
+.logo-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(102, 56, 33, 0.65);
+    width: 35vw;
+    margin-top: 200px;
+}
+
+.logo-title{
+    font-family: "Fredericka the Great";
+    color: #FDD029;
+    font-size: 100px;
+}
+
+.right-side{
+    position: absolute;
+    font-family: "Instrument Serif", serif;
+    margin-top: 50px;
+}
+.paragraph, button, .hyperlink{
+    margin-left: 38vw;
+}
+
+.fill-out{
+    margin-top: 40px;
+    background-color: #F5DD8F;
+    margin-left: 35vw;
+    padding: 20px 400px 20px 58px;
+    box-shadow: 2px 5px #E5E7EB;
+}
+
+.form-div-main{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.form-div-right{
+    margin-left: 100px;
+}
+
+input{
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: 2px solid blue;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+label{
+    font-size: 25px;
+    color: #CE7949;
+    font-family: "Instrument Serif", serif;
+}
+
+::placeholder{
+    font-size: 25px;
+    color: rgb(167, 167, 167);
+    font-family: "Instrument Serif", serif; 
+}
+
+#error{
+    font-size: 18px;
+    color: red;
+}
+
+button{
+    background-color: #F5DD8F;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    box-shadow: 2px 4px #E5E7EB;
+}
+
+.hyperlink, a{
+    font-size: 25px;
+}
+
+a{
+    color: #ff7300;
+    text-decoration: none;
+    font-weight: bolder;
 }
