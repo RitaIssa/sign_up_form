@@ -25,10 +25,12 @@ const pass = document.querySelector("#password");
 const confirmP = document.querySelector("#confirm_password");
 
 clear.addEventListener("click", () => {
-  first.value = "";
-  last.value = "";
-  email.value = "";
-  number.value = "";
-  pass.value = "";
-  confirmP.value = "";
+  if (first.value != "" && last.value != "" && email.value != "" && number.value != "" && pass.value != "" &&   confirmP.value != "" && pass.value == confirmP.value){
+        first.value = "";
+        last.value = "";
+        email.value = "";
+        number.value = "";
+        pass.value = "";
+        confirmP.value = "";
+  }
 });
