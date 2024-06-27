@@ -107,6 +107,7 @@ button{
     margin-bottom: 30px;
     font-weight: bolder;
     box-shadow: 2px 4px #E5E7EB;
+    cursor: pointer;
 }
 
 .hyperlink, a{
@@ -126,4 +127,12 @@ a{
     .fill-out{
         margin-left: 350px;
     }
+}
+
+button:hover{
+    background-color: #fae8ad;
+}
+
+a:hover{
+    font-size: 28px;
 }
